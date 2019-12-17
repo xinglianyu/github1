@@ -1,0 +1,2 @@
+ÔÂ¾ùÖµ
+insert into monthdate select name,avg(price),DATE_FORMAT(date,'%Y-%m'),space,city,count(*) from shucaiapp_beijingshucai group by city,space,name,DATE_FORMAT(date,'%Y-%m');
